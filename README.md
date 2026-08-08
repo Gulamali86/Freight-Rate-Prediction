@@ -55,12 +55,15 @@ Download Deliverables: Download validation_predictions.csv, december_chart_input
 Option 2: Running Locally via Command Prompt (CMD) / Terminal
 1. Clone the Repository:Bashgit clone [https://github.com/Gulamali86/spotter-ml-freight-prediction.git](https://github.com/Gulamali86/spotter-ml-freight-prediction.git)
 cd spotter-ml-freight-prediction
-2. Set Up Virtual Environment:Bashpython -m venv venv
+2. Set Up Virtual Environment:
+Bash python -m venv venv
 # Windows:
 venv\Scripts\activate
 # Mac/Linux:
 source venv/bin/activate
+---
 3. Install Requirements:Bashpip install -r requirements.txt
+---
 4. Execute Pipeline Script & Scorer:Bashpython solution.py
 python score.py --predictions validation_predictions.csv --december-predictions december_chart_inputs.csv
 
