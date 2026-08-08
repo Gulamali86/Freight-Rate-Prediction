@@ -56,6 +56,7 @@ Option 2: Running Locally via Command Prompt (CMD) / Terminal
 1. Clone the Repository:Bashgit clone [https://github.com/Gulamali86/spotter-ml-freight-prediction.git](https://github.com/Gulamali86/spotter-ml-freight-prediction.git)
 cd spotter-ml-freight-prediction
 2. Set Up Virtual Environment:
+   
 Bash python -m venv venv
 # Windows:
 venv\Scripts\activate
